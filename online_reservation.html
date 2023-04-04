@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Flexbox V2</title>
+		<title>Pizzeria Samantha</title>
 		<link href="styles.css" rel="stylesheet"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
@@ -32,10 +32,10 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="news.html">News</a></li>
 						<li><a href="about_us.html">About Us</a></li>
-						<li>Menu</li>
+						<li><a href='#'>Menu</a></li>
 						<li><a href="contact.html">Contact</a></li>
 						<li><a href="online_reservation.html">Reservation</a></li>
-						<li>Order</li>
+						<li><a href="online_order.html">Order</a></li>
 					</ul>
 				</div>	
 			
@@ -50,14 +50,15 @@
 					<p>Simple fill the form and you will get confirmation mail within 60 minutes.</p>
 				</div>
 				<div class="background-form">
+					<form class="forma" action="https://formsubmit.co/b.basic2@gmail.com" method="POST">
 					<div class="personal_information">
-						<form>
+						
 							<label for="name">First Name<input type="text" id="name" placeholder="Enter First Name" required></label>
 							<label for="name">Last Name<input type="text" id="name" placeholder="Enter Last Name" required></label>
 							<label for="email">E-mail<input type="mail" id="email" placeholder="Enter e-mail" required></label>
 							<label for="number">Number of people<input type="number" id="number" placeholder="Enter number of people" required></label>
 							<label for="date-time-id">Date and Time<input type="date" id="date-time-id" required><input type="time" id="date-time-id" value="13:01" required></label>
-						</form>
+						
 					</div>
 				
 				
@@ -72,7 +73,8 @@
 							
 					</div>
 					<input id="submit" type="submit" value="Submit">
-			</div>
+					</form>
+				</div>
 			
 				<!--<div id="photobook2">
 					<div id="photobook2_1">
@@ -87,7 +89,7 @@
 					</div>
 				</div>-->
 			</div>
-			
+			<hr id="hr_line">
 			<footer id="footer">
 				<!--<p>FOOTER</p>-->
 				<div class="footer_contact">
